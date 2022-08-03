@@ -1,10 +1,20 @@
 {
   "hosting": {
-    "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
+    "public": "/",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "appAssociation": "AUTO",
+    "cleanUrls": true,
+    "rewrites": [
+      {
+        "source": "/careers",
+        "destination": "/careers.html"
+      },
+      {
+        "source": "/sharing/**",
+        "dynamicLinks": true
+      },
+      { "source": "/shared/**", "dynamicLinks": true },
+      { "source": "/deeplinks/**", "dynamicLinks": true }
     ]
   }
 }
