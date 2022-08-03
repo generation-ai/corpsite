@@ -524,7 +524,7 @@ section.screenshots {
 
 section.description {
   padding-top: 15px;
-  padding-bottom: 20px;
+  padding-bottom: 8px;
   border-top: 4px solid #EEE3C1;
   border-bottom: 4px solid #EEE3C1;
 }
@@ -1058,7 +1058,7 @@ p.price {
 /* FOOTER */
 
 footer {
-  padding-top: 40px;
+  padding-top: 10px;
   padding-bottom: 20px;
   border-bottom: 0;
   position: relative;
